@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Bootstrap Ebac</title>
+    <link rel="stylesheet" href="./Lib/bootstrap.min.css">
+    <style>
+        h1 {
+            padding:48px;
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel carousel-fade-item slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" style="width: 100%;" class="carousel-item active">
+                <img class="d-block" w-100 src="./imagens/Slide1.png"/>
+                <div class="carousel-caption">
+                    <button class="btn btn-light">Descubra</button>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block" w-100 src="./imagens/Slide2.png"/>
+                <div class="carousel-caption">
+                    <button class="btn btn-light">Escolha o seu</button>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block" w-100 src="./imagens/Slide3.png"/>
+                <div class="carousel-caption">
+                    <button class="btn btn-light">Compre sua Tv</button>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <h1>Loja Ebac - Tecnologia</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Notebook Samsung Book 2
+                    </div>
+                    <img src="./imagens/SamsungBook2.png"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Galaxy Book2 Intel® Core i5</h4>
+                        <h5 class="card-subtitle">Windows 11 Home | 8GB | 256GB SSD + 1TB HD | Intel Iris Xe | 15.6'' Full HD LED</h5>
+                        <p class="card-text">
+                            O Galaxy Book2 traz um design moderno e inovador, com uma arquitetura de última geração para quem busca desempenho, qualidade e flexibilidade para upgrade futuro. Conta com portas de acesso à memória e unidade de armazenamento,  proporcionando mais longevidade ao sistema. A familia Galaxy Book2 traz uma variedade de configurações, atendendo aos mais diversos perfis de utilização.
+                        </p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12  col-md-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Notebook Samsung Book 3
+                    </div>
+                    <img src="./imagens/SamsungBook3.png"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Notebook Samsung Galaxy Book3</h4>
+                        <h5 class="card-subtitle">Windows 11 Home | Intel® Core™ i7-13700H | 32GB | 1TB SSD | 16'' WQXGA</h5>
+                        <p class="card-text">
+                            A Samsung apresenta o notebook Galaxy Book3 Ultra NP960XFH-XA1BR.Amplie sua criatividade gráfica com placa de vídeo dedicada NVIDIA GeForce RTX4050 Graphics de nível superior e o processador ultrarrápido Intel Core i7 13700H de 13ª geração. É uma combinação poderosa até mesmo para os projetos mais pesados.Mergulhe na tela AMOLED 2x de 16" com resolução WQXGA+ (2880x1800) fotorrealista do Galaxy Book3 Ultra.
+                        </p> 
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Notebook Samsung Book Go
+                    </div>
+                    <img src="./imagens/SamsungBookGo.png"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Galaxy Book Go</h4>
+                        <h5 class="card-subtitle">Notebook Samsung Galaxy Book Go Snapdragon 4GB - 128GB UFS 14” Full HD</h5>
+                        <p class="card-text">
+                            O Galaxy Book Go tem uma tela de 14 polegadas com um design compacto que cabe em sua bolsa e proporciona imagens e áudio envolventes com o som Dolby Atmos®.Fino, mas resistente, a estrutura prateada durável e com uma dobradiça de 180 graus.Quando a bateria precisar de uma recarga, você pode usar o adaptador USB-C universal que recarrega seus dispositivos Samsung.Integre vida e tecnologia com o Samsung Galaxy Ecosystem interconectado.
+                        </p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <p>
+                2024 &copy; Loja Ebac - Tecnologia - Todos os direitos reservados.
+                </p>
+            </div>
+        </footer>
+    <script src="./Lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
